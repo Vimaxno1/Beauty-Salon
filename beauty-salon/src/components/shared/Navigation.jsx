@@ -9,16 +9,19 @@ const Navigation = () => {
   const pathname = usePathname();
   return (
     <section className="custom-scrollbar leftsidebar">
-      <div id="betty-page">
-        <aside id="betty-aside">
+      <div id="beauty-page">
+        <a href="#" class="js-beauty-nav-toggle beauty-nav-toggle">
+          <i></i>
+        </a>
+        <aside id="beauty-aside">
           {/* <!-- Logo --> */}
-          <div class="betty-logo">
+          <div class="beauty-logo">
             <a href="/">
               <img src="/assets/images/logo1.png" alt="logo" />
             </a>
           </div>
 
-          <nav id="betty-main-menu">
+          <nav id="beauty-main-menu">
             <ul>
               <li class="active">
                 {sidebarLinks.map((link) => {
@@ -44,7 +47,7 @@ const Navigation = () => {
           </nav>
 
           {/* Info */}
-          <div className="betty-contact-info">
+          <div className="beauty-contact-info">
             <div className="feat-inner">
               {' '}
               <span className="icon et-clock"></span>
@@ -54,19 +57,19 @@ const Navigation = () => {
               </div>
             </div>
           </div>
-          <div className="betty-contact-info">
+          <div className="beauty-contact-info">
             <div className="feat-inner">
               {' '}
               <span className="icon et-phone"></span>
               <div className="feat-info">
                 <h5>+234 903-123-0606</h5>
-                <h6>515 West Ave Norwalk</h6>
+                <h6>515 Woji, Port Harcourt Rivers </h6>
               </div>
             </div>
           </div>
 
           {/* Footer */}
-          <div className="betty-footer">
+          <div className="beauty-footer">
             <ul>
               <li>
                 <a href="#">

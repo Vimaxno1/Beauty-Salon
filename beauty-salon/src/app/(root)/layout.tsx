@@ -28,10 +28,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex flex-row  ">
+        {/* <div className="preloader-bg"></div>
+        <div id="preloader">
+          <div id="preloader-status">
+            <div className="preloader-position loader">
+              {' '}
+              <span></span>{' '}
+            </div>
+          </div>
+        </div> */}
+        <main>
           <Navigation />
-          <section className="main-container">
-            <div className="w-full max-w-4xl">{children}</div>
+          <section>
+            <div>{children}</div>
           </section>
         </main>
       </body>
