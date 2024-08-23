@@ -2261,11 +2261,11 @@ ol.comment-list li .children li {
 }
 
 .slider-img1 {
-  background: url(../assets/images/slider/Slider1.jpg) !important;
+  background: url(../assets/images/slider/Slider1.jpg);
 }
 .slider-img2 {
-  background: url(../assets/images/slider/Slider2.jpg) !important;
+  background: url(../assets/images/slider/Slider2.jpg);
 }
 .slider-img3 {
-  background: url(../assets/images/slider/Slider3.jpg) !important;
+  background: url(../assets/images/slider/Slider3.jpg);
 }

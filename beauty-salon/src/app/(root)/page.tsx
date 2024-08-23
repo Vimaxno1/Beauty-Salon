@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Home() {
   return (
     <>
@@ -8,7 +6,11 @@ export default function Home() {
           {/* <!-- Slider --> */}
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li className="slider-img1 ">
+              <li
+                style={{
+                  backgroundImage: `url('assets/images/slider/Slider1.jpg')`,
+                }}
+              >
                 <div className="overlay"></div>
                 <div className="container-fluid">
                   <div className="row">
@@ -18,10 +20,7 @@ export default function Home() {
                           <h1>Everthing is possible with our salon!</h1>
                           <p>We make the best makeup in 515 West Ave Norwalk</p>
                           <div className="btn btn-contact">
-                            <a
-                              href="https://1.envato.market/BjNML"
-                              target="_blank"
-                            >
+                            <a href="#" target="_blank">
                               Buy Now
                             </a>
                           </div>
@@ -31,7 +30,11 @@ export default function Home() {
                   </div>
                 </div>
               </li>
-              <li className="slider-img2">
+              <li
+                style={{
+                  backgroundImage: `url('assets/images/slider/Slider2.jpg')`,
+                }}
+              >
                 <div className="overlay"></div>
                 <div className="container-fluid">
                   <div className="row">
@@ -51,7 +54,11 @@ export default function Home() {
                   </div>
                 </div>
               </li>
-              <li className="slider-img3">
+              <li
+                style={{
+                  backgroundImage: `url('assets/images/slider/Slider3.jpg')`,
+                }}
+              >
                 <div className="overlay"></div>
                 <div className="container-fluid">
                   <div className="row">
@@ -64,10 +71,7 @@ export default function Home() {
                             Norwalk
                           </p>
                           <div className="btn btn-contact">
-                            <a
-                              href="https://1.envato.market/BjNML"
-                              target="_blank"
-                            >
+                            <a href="#" target="_blank">
                               Buy Now
                             </a>
                           </div>
@@ -98,10 +102,10 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="images/services/01.jpg" alt="" />
+                    <img src="/assets/images/services/01.jpg" alt="" />
                   </div>
                   <div className="con">
-                    <a href="services-page.html">
+                    <a href="/services-page">
                       <h5>Makeup</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
@@ -113,10 +117,10 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="images/services/02.jpg" alt="" />
+                    <img src="/assets/images/services/02.jpg" alt="" />
                   </div>
                   <div className="con">
-                    <a href="services-page.html">
+                    <a href="/services-page">
                       <h5>Hairdressing</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
@@ -128,10 +132,10 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="images/services/03.jpg" alt="" />
+                    <img src="/assets/images/services/03.jpg" alt="" />
                   </div>
                   <div className="con">
-                    <a href="services-page.html">
+                    <a href="/services-page">
                       <h5>Barber</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
@@ -143,10 +147,10 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="images/services/04.jpg" alt="" />
+                    <img src="/assets/images/services/04.jpg" alt="" />
                   </div>
                   <div className="con">
-                    <a href="services-page.html">
+                    <a href="/services-page">
                       <h5>Massage Theraphy</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
@@ -158,10 +162,10 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="images/services/05.jpg" alt="" />
+                    <img src="/assets/images/services/05.jpg" alt="" />
                   </div>
                   <div className="con">
-                    <a href="services-page.html">
+                    <a href="/services-page">
                       <h5>Body Treatments</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
@@ -173,10 +177,10 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="images/services/06.jpg" alt="" />
+                    <img src="/assets/images/services/06.jpg" alt="" />
                   </div>
                   <div className="con">
-                    <a href="services-page.html">
+                    <a href="/services-page">
                       <h5>Aromatherapy</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
@@ -206,14 +210,18 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="blog-entry">
                   <a href="post.html" className="blog-img">
-                    <img src="images/blog/2.jpg" className="img-fluid" alt="" />
+                    <img
+                      src="/assets/images/blog/2.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
                   </a>
                   <div className="desc">
                     <span>
                       <a href="#">Makeup</a>
                     </span>
                     <h4>
-                      <a href="post.html">Top 5 Benefits of Body Polishing</a>
+                      <a href="/post">Top 5 Benefits of Body Polishing</a>
                     </h4>
                     <span className="text-right">
                       <a href="#">Dec 30, 2023</a>
@@ -223,15 +231,19 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <div className="blog-entry">
-                  <a href="post.html" className="blog-img">
-                    <img src="images/blog/1.jpg" className="img-fluid" alt="" />
+                  <a href="/post" className="blog-img">
+                    <img
+                      src="/assets/images/blog/1.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
                   </a>
                   <div className="desc">
                     <span>
                       <a href="#">Makeup</a>
                     </span>
                     <h4>
-                      <a href="post.html">Hair Accessories You Should Try</a>
+                      <a href="/post">Hair Accessories You Should Try</a>
                     </h4>
                     <span className="text-right">
                       <a href="#">Dec 29, 2023</a>
@@ -241,8 +253,12 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <div className="blog-entry">
-                  <a href="post.html" className="blog-img">
-                    <img src="images/blog/3.jpg" className="img-fluid" alt="" />
+                  <a href="/post" className="blog-img">
+                    <img
+                      src="/assets/images/blog/3.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
                   </a>
                   <div className="desc">
                     <span>
@@ -263,7 +279,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-12 text-center">
                 <p className="btn btn-contact">
-                  <a href="blog.html">All Blog Post</a>
+                  <a href="/blog">All Blog Post</a>
                 </p>
               </div>
             </div>
@@ -272,7 +288,7 @@ export default function Home() {
         {/* <!-- Testiominals --> */}
         <div
           className="beauty-testimonial testimonials bg-img bg-fixed"
-          data-background="images/banner.jpg"
+          data-background="/assets/images/banner.jpg"
         >
           <div className="container-fluid">
             <div className="row">
@@ -289,7 +305,7 @@ export default function Home() {
                 <div className="owl-carousel owl-theme">
                   <div className="item-box">
                     <span className="quote">
-                      <img src="images/quot.png" alt="" />
+                      <img src="/assets/images/quot.png" alt="" />
                     </span>
                     <p>
                       Quality dapibus augue metus the nec feugiat erat hendrerit
@@ -297,7 +313,7 @@ export default function Home() {
                     </p>
                     <div className="info">
                       <div className="author-img">
-                        <img src="images/team/a.png" alt="" />
+                        <img src="/assets/images/team/a.png" alt="" />
                       </div>
                       <div className="cont">
                         <h6>Emma Brown</h6>
@@ -307,7 +323,7 @@ export default function Home() {
                   </div>
                   <div className="item-box">
                     <span className="quote">
-                      <img src="images/quot.png" alt="" />
+                      <img src="/assets/images/quot.png" alt="" />
                     </span>
                     <p>
                       Quality dapibus augue metus the nec feugiat erat hendrerit
@@ -315,7 +331,7 @@ export default function Home() {
                     </p>
                     <div className="info">
                       <div className="author-img">
-                        <img src="images/team/b.png" alt="" />
+                        <img src="/assets/images/team/b.png" alt="" />
                       </div>
                       <div className="cont">
                         <h6>Jason White</h6>
@@ -325,7 +341,7 @@ export default function Home() {
                   </div>
                   <div className="item-box">
                     <span className="quote">
-                      <img src="images/quot.png" alt="" />
+                      <img src="/assets/images/quot.png" alt="" />
                     </span>
                     <p>
                       Quality dapibus augue metus the nec feugiat erat hendrerit
@@ -333,7 +349,7 @@ export default function Home() {
                     </p>
                     <div className="info">
                       <div className="author-img">
-                        <img src="images/team/c.png" alt="" />
+                        <img src="/assets/images/team/c.png" alt="" />
                       </div>
                       <div className="cont">
                         <h6>Emily Smith</h6>
@@ -364,32 +380,32 @@ export default function Home() {
               <div className="col-md-12 owl-carousel owl-theme">
                 <div className="brand-logo">
                   <a href="#">
-                    <img src="images/brands/1.png" alt="" />
+                    <img src="/assets/images/brands/1.png" alt="" />
                   </a>
                 </div>
                 <div className="brand-logo">
                   <a href="#">
-                    <img src="images/brands/2.png" alt="" />
+                    <img src="/assets/images/brands/2.png" alt="" />
                   </a>
                 </div>
                 <div className="brand-logo">
                   <a href="#">
-                    <img src="images/brands/3.png" alt="" />
+                    <img src="/assets/images/brands/3.png" alt="" />
                   </a>
                 </div>
                 <div className="brand-logo">
                   <a href="#">
-                    <img src="images/brands/4.png" alt="" />
+                    <img src="/assets/images/brands/4.png" alt="" />
                   </a>
                 </div>
                 <div className="brand-logo">
                   <a href="#">
-                    <img src="images/brands/5.png" alt="" />
+                    <img src="/assets/images/brands/5.png" alt="" />
                   </a>
                 </div>
                 <div className="brand-logo">
                   <a href="#">
-                    <img src="images/brands/6.png" alt="" />
+                    <img src="/assets/images/brands/6.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -403,11 +419,11 @@ export default function Home() {
               <div className="col-md-12 text-center">
                 <div className="beauty-logo">
                   <a href="index.html">
-                    <img src="images/logo.png" alt="" />
+                    <img src="/assets/images/logo.png" alt="" />
                   </a>
                   <h2 className="text-center">
-                    beauty
-                    <span>Center of Beauty</span>
+                    Beauty Salon
+                    <span>It's all About You</span>
                   </h2>
                 </div>
               </div>
@@ -415,24 +431,13 @@ export default function Home() {
             <div className="row">
               <div className="col-md-12 text-left">
                 <div className="beauty-footer">
-                  <p>beauty by DuruThemes. All Rights Reserved.</p>
+                  <p>beauty by Progress Victor. All Rights Reserved.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- Js --> */}
-      <script src="js/jquery.min.js"></script>
-      <script src="js/modernizr-2.6.2.min.js"></script>
-      <script src="js/jquery.easing.1.3.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.waypoints.min.js"></script>
-      <script src="js/jquery.flexslider-min.js"></script>
-      <script src="js/sticky-kit.min.js"></script>
-      <script src="js/jquery.magnific-popup.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/main.js"></script>
     </>
   );
 }
