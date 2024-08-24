@@ -1,111 +1,32 @@
-export default function Home() {
+const page = () => {
   return (
     <>
       <div id="beauty-main">
-        <aside id="beauty-hero" className="js-fullheight">
-          {/* <!-- Slider --> */}
-          <div className="flexslider js-fullheight">
-            <ul className="slides">
-              <li
-                style={{
-                  backgroundImage: `url('assets/images/slider/Slider1.jpg')`,
-                }}
-              >
-                <div className="overlay"></div>
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-12 js-fullheight slider-text">
-                      <div className="slider-text-inner">
-                        <div className="desc">
-                          <h1>Everthing is possible with our salon!</h1>
-                          <p>
-                            We make the best makeup in 515 Woji, Port Harcourt
-                            Rivers
-                          </p>
-                          <div className="btn btn-contact">
-                            <a href="#" target="_blank">
-                              Buy Now
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                style={{
-                  backgroundImage: `url('assets/images/slider/Slider2.jpg')`,
-                }}
-              >
-                <div className="overlay"></div>
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-12 js-fullheight slider-text">
-                      <div className="slider-text-inner">
-                        <div className="desc">
-                          <h1>Welcome to beauty Beauty Salon!</h1>
-                          <p>Everthing is possible with our salon</p>
-                          <div className="btn btn-contact">
-                            <a href="#" target="_blank">
-                              Buy Now
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                style={{
-                  backgroundImage: `url('assets/images/slider/Slider3.jpg')`,
-                }}
-              >
-                <div className="overlay"></div>
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-12 js-fullheight slider-text">
-                      <div className="slider-text-inner">
-                        <div className="desc">
-                          <h1>Everthing is possible with our salon!</h1>
-                          <p>
-                            We make the best hairdressing in 515 Woji, Port
-                            Harcourt Rivers
-                          </p>
-                          <div className="btn btn-contact">
-                            <a href="#" target="_blank">
-                              Buy Now
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </aside>
         {/* <!-- Services --> */}
-        <div className="beauty-home-services beauty-services">
+        <div className="beauty-services beauty-services">
           <div className="container-fluid">
             <div className="row">
-              <div
-                className="col-md-12 animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <h2 className="beauty-heading">Our Services</h2>
-                <span className="heading-meta">
+              <div className="col-md-12">
+                <h2
+                  className="beauty-heading animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  Our Services
+                </h2>{' '}
+                <span
+                  className="heading-meta animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
                   We offer a wide range of beauty services
-                </span>
+                </span>{' '}
               </div>
             </div>
             <div className="row">
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="/assets/images/services/01.jpg" alt="" />
+                    {' '}
+                    <img src="/assets/images/services/01.jpg" alt="" />{' '}
                   </div>
                   <div className="con">
                     <a href="/services-page">
@@ -120,7 +41,8 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="/assets/images/services/02.jpg" alt="" />
+                    {' '}
+                    <img src="/assets/images/services/02.jpg" alt="" />{' '}
                   </div>
                   <div className="con">
                     <a href="/services-page">
@@ -135,7 +57,8 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="/assets/images/services/03.jpg" alt="" />
+                    {' '}
+                    <img src="/assets/images/services/03.jpg" alt="" />{' '}
                   </div>
                   <div className="con">
                     <a href="/services-page">
@@ -150,11 +73,12 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="/assets/images/services/04.jpg" alt="" />
+                    {' '}
+                    <img src="/assets/images/services/04.jpg" alt="" />{' '}
                   </div>
                   <div className="con">
                     <a href="/services-page">
-                      <h5>Massage Theraphy</h5>
+                      <h5>Massages</h5>
                       <p>
                         <i className="ti-arrow-right"></i>
                       </p>
@@ -165,7 +89,8 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="/assets/images/services/05.jpg" alt="" />
+                    {' '}
+                    <img src="/assets/images/services/05.jpg" alt="" />{' '}
                   </div>
                   <div className="con">
                     <a href="/services-page">
@@ -180,7 +105,8 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="item">
                   <div className="position-re o-hidden">
-                    <img src="/assets/images/services/06.jpg" alt="" />
+                    {' '}
+                    <img src="/assets/images/services/06.jpg" alt="" />{' '}
                   </div>
                   <div className="con">
                     <a href="/services-page">
@@ -195,95 +121,109 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <!-- Blog --> */}
-        <div className="beauty-home-blog">
+        {/* <!-- Makeup Services --> */}
+        <div className="beauty-makeup">
           <div className="container-fluid">
             <div className="row">
-              <div
-                className="col-md-12 animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <h2 className="beauty-heading">Latest News</h2>
-                <span className="heading-meta">
-                  Read about latest health trends
-                </span>
+              <div className="col-md-12">
+                <h2
+                  className="beauty-heading animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  Makeup
+                </h2>{' '}
+                <span
+                  className="heading-meta animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  Our makeup services
+                </span>{' '}
               </div>
             </div>
             <div className="row">
               <div className="col-md-4">
-                <div className="blog-entry">
-                  <a href="post.html" className="blog-img">
-                    <img
-                      src="/assets/images/blog/2.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                  </a>
-                  <div className="desc">
-                    <span>
-                      <a href="#">Makeup</a>
-                    </span>
-                    <h4>
-                      <a href="/post">Top 5 Benefits of Body Polishing</a>
-                    </h4>
-                    <span className="text-right">
-                      <a href="#">July 30, 2024</a>
-                    </span>
+                <div className="beauty-makeup-container">
+                  <div className="beauty-makeup-img-area">
+                    <span className="flaticon-039-make-up"></span>
+                  </div>
+                  <div className="beauty-makeup-text-area">
+                    <h4 className="beauty-makeup-heading">Facial Makeup</h4>
+                    <p>
+                      Suspendisse quis odio lobortis laoreet libero quis varius
+                      tortor.
+                    </p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-entry">
-                  <a href="/post" className="blog-img">
-                    <img
-                      src="/assets/images/blog/1.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                  </a>
-                  <div className="desc">
-                    <span>
-                      <a href="#">Makeup</a>
-                    </span>
-                    <h4>
-                      <a href="/post">Hair Accessories You Should Try</a>
-                    </h4>
-                    <span className="text-right">
-                      <a href="#">July 29, 2024</a>
-                    </span>
+                <div className="beauty-makeup-container">
+                  <div className="beauty-makeup-img-area">
+                    <span className="flaticon-007-mascara-4"></span>
+                  </div>
+                  <div className="beauty-makeup-text-area">
+                    <h4 className="beauty-makeup-heading">Eye Makeup</h4>
+                    <p>
+                      Suspendisse quis odio lobortis laoreet libero quis varius
+                      tortor.
+                    </p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-entry">
-                  <a href="/post" className="blog-img">
-                    <img
-                      src="/assets/images/blog/3.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                  </a>
-                  <div className="desc">
-                    <span>
-                      <a href="#">Barber</a>
-                    </span>
-                    <h4>
-                      <a href="post.html">
-                        Trending Hairstyles For Men in 2024
-                      </a>
-                    </h4>
-                    <span className="text-right">
-                      <a href="#">July 20, 2024</a>
-                    </span>
+                <div className="beauty-makeup-container">
+                  <div className="beauty-makeup-img-area">
+                    <span className="flaticon-013-facial-mask-1"></span>
+                  </div>
+                  <div className="beauty-makeup-text-area">
+                    <h4 className="beauty-makeup-heading">Face Makeup</h4>
+                    <p>
+                      Suspendisse quis odio lobortis laoreet libero quis varius
+                      tortor.
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12 text-center">
-                <p className="btn btn-contact">
-                  <a href="/blog">All Blog Post</a>
-                </p>
+              <div className="col-md-4">
+                <div className="beauty-makeup-container">
+                  <div className="beauty-makeup-img-area">
+                    <span className="flaticon-034-eyebrow"></span>
+                  </div>
+                  <div className="beauty-makeup-text-area">
+                    <h4 className="beauty-makeup-heading">Eyebrow Makeup</h4>
+                    <p>
+                      Suspendisse quis odio lobortis laoreet libero quis varius
+                      tortor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="beauty-makeup-container">
+                  <div className="beauty-makeup-img-area">
+                    <span className="flaticon-018-scissors"></span>
+                  </div>
+                  <div className="beauty-makeup-text-area">
+                    <h4 className="beauty-makeup-heading">Haircut Makeup</h4>
+                    <p>
+                      Suspendisse quis odio lobortis laoreet libero quis varius
+                      tortor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="beauty-makeup-container">
+                  <div className="beauty-makeup-img-area">
+                    <span className="flaticon-037-dressing-table"></span>
+                  </div>
+                  <div className="beauty-makeup-text-area">
+                    <h4 className="beauty-makeup-heading">Dressing Table</h4>
+                    <p>
+                      Suspendisse quis odio lobortis laoreet libero quis varius
+                      tortor.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -307,6 +247,7 @@ export default function Home() {
               <div className="col-md-8">
                 <div className="owl-carousel owl-theme">
                   <div className="item-box">
+                    {' '}
                     <span className="quote">
                       <img src="/assets/images/quot.png" alt="" />
                     </span>
@@ -316,15 +257,16 @@ export default function Home() {
                     </p>
                     <div className="info">
                       <div className="author-img">
-                        <img src="/assets/images/team/a.png" alt="" />
+                        {' '}
+                        <img src="/assets/images/team/a.png" alt="" />{' '}
                       </div>
                       <div className="cont">
-                        <h6>Emma Brown</h6>
-                        <span>Lawyer</span>
+                        <h6>Emma Brown</h6> <span>Lawyer</span>
                       </div>
                     </div>
                   </div>
                   <div className="item-box">
+                    {' '}
                     <span className="quote">
                       <img src="/assets/images/quot.png" alt="" />
                     </span>
@@ -334,15 +276,16 @@ export default function Home() {
                     </p>
                     <div className="info">
                       <div className="author-img">
-                        <img src="/assets/images/team/b.png" alt="" />
+                        {' '}
+                        <img src="/assets/images/team/b.png" alt="" />{' '}
                       </div>
                       <div className="cont">
-                        <h6>Jason White</h6>
-                        <span>Model</span>
+                        <h6>Jason White</h6> <span>Model</span>
                       </div>
                     </div>
                   </div>
                   <div className="item-box">
+                    {' '}
                     <span className="quote">
                       <img src="/assets/images/quot.png" alt="" />
                     </span>
@@ -352,11 +295,11 @@ export default function Home() {
                     </p>
                     <div className="info">
                       <div className="author-img">
-                        <img src="/assets/images/team/c.png" alt="" />
+                        {' '}
+                        <img src="/assets/images/team/c.png" alt="" />{' '}
                       </div>
                       <div className="cont">
-                        <h6>Emily Smith</h6>
-                        <span>Psychologist</span>
+                        <h6>Emily Smith</h6> <span>Psychologist</span>
                       </div>
                     </div>
                   </div>
@@ -373,7 +316,7 @@ export default function Home() {
                 className="col-md-12 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <h2 className="beauty-heading">Our Brands</h2>
+                <h2 className="beauty-heading">Our Brands</h2>{' '}
                 <span className="heading-meta">
                   We use only the high quality original products
                 </span>
@@ -415,6 +358,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         {/* <!-- Footer --> */}
         <div id="beauty-footer2">
           <div className="container-fluid">
@@ -427,7 +371,7 @@ export default function Home() {
                   <h2 className="text-center">
                     Beauty Salon
                     <span>It's all About You</span>
-                  </h2>
+                  </h2>{' '}
                 </div>
               </div>
             </div>
@@ -443,4 +387,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default page;
