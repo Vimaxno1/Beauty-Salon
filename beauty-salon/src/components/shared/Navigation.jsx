@@ -10,12 +10,12 @@ const Navigation = () => {
   return (
     <section className="custom-scrollbar leftsidebar">
       <div id="beauty-page">
-        <a href="#" class="js-beauty-nav-toggle beauty-nav-toggle">
+        <a href="#" className="js-beauty-nav-toggle beauty-nav-toggle">
           <i></i>
         </a>
         <aside id="beauty-aside">
           {/* <!-- Logo --> */}
-          <div class="beauty-logo">
+          <div className="beauty-logo">
             <a href="/">
               <img src="/assets/images/logo1.png" alt="logo" />
             </a>
@@ -23,7 +23,7 @@ const Navigation = () => {
 
           <nav id="beauty-main-menu">
             <ul>
-              <li class="active">
+              <li className="active">
                 {sidebarLinks.map((link) => {
                   const isActive =
                     (pathname.includes(link.route) && link.route.length > 1) ||
@@ -34,7 +34,7 @@ const Navigation = () => {
                     <a
                       href={link.route}
                       key={link.label}
-                      classNameName={`leftsidebar_link ${
+                      className={`leftsidebar_link ${
                         isActive && 'bg-primary-500'
                       }`}
                     >

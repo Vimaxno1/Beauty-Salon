@@ -433,11 +433,6 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
 }
 
-.owl-carousel .owl-nav button.owl-next,
-  .owl-carousel .owl-nav button.owl-prev,
-  .owl-carousel button.owl-dot {
-}
-
 /* ======= Section Style ======= */
 .beauty-home-services,
 .beauty-home-blog,
@@ -563,7 +558,7 @@ input[type='checkbox'] {
   line-height: 1.75em;
 }
 #beauty-aside .beauty-logo img {
-  width: 250px;
+  width: 40px;
   height: auto;
   margin-bottom: 0px;
 }
@@ -2258,14 +2253,4 @@ ol.comment-list li .children li {
   text-decoration: none;
   outline: none;
   color: #fff;
-}
-
-.slider-img1 {
-  background: url(../assets/images/slider/Slider1.jpg);
-}
-.slider-img2 {
-  background: url(../assets/images/slider/Slider2.jpg);
-}
-.slider-img3 {
-  background: url(../assets/images/slider/Slider3.jpg);
 }

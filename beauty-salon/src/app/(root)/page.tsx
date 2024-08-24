@@ -224,7 +224,7 @@ export default function Home() {
                       <a href="/post">Top 5 Benefits of Body Polishing</a>
                     </h4>
                     <span className="text-right">
-                      <a href="#">Dec 30, 2023</a>
+                      <a href="#">July 30, 2024</a>
                     </span>
                   </div>
                 </div>
@@ -246,7 +246,7 @@ export default function Home() {
                       <a href="/post">Hair Accessories You Should Try</a>
                     </h4>
                     <span className="text-right">
-                      <a href="#">Dec 29, 2023</a>
+                      <a href="#">July 29, 2024</a>
                     </span>
                   </div>
                 </div>
@@ -266,11 +266,11 @@ export default function Home() {
                     </span>
                     <h4>
                       <a href="post.html">
-                        Trending Hairstyles For Men in 2023
+                        Trending Hairstyles For Men in 2024
                       </a>
                     </h4>
                     <span className="text-right">
-                      <a href="#">Dec 20, 2023</a>
+                      <a href="#">July 20, 2024</a>
                     </span>
                   </div>
                 </div>

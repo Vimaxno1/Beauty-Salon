@@ -2,14 +2,16 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 // CSS IMPORT //
-import '../../../public/css/globals.css';
-import '../../../public/css/et-lineicons.css';
-import '../../../public/css/flaticon.css';
-import '../../../public/css/themify-icons.css';
 import '../../../public/css/animate.css';
+import '../../../public/css/et-lineicons.css';
+import '../../../public/css/themify-icons.css';
 import '../../../public/css/bootstrap.css';
-import '../../../public/css/flexslider.css';
+import '../../../public/css/flaticon.css';
 import '../../../public/css/magnific-popup.css';
+import '../../../public/css/owl.carousel.min.css';
+import '../../../public/css/owl.theme.default.min.css';
+import '../../../public/css/flexslider.css';
+import '../../../public/css/globals.css';
 
 import Navigation from '../../components/shared/Navigation';
 import Script from 'next/script';
