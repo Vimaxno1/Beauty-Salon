@@ -18,7 +18,10 @@ export default function Home() {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>Everthing is possible with our salon!</h1>
-                          <p>We make the best makeup in 515 West Ave Norwalk</p>
+                          <p>
+                            We make the best makeup in 515 Woji, Port Harcourt
+                            Rivers
+                          </p>
                           <div className="btn btn-contact">
                             <a href="#" target="_blank">
                               Buy Now
