@@ -67,8 +67,8 @@ export default function Home() {
                         <div className="desc">
                           <h1>Everthing is possible with our salon!</h1>
                           <p>
-                            We make the best hairdressing in 515 West Ave
-                            Norwalk
+                            We make the best hairdressing in 515 Woji, Port
+                            Harcourt Rivers
                           </p>
                           <div className="btn btn-contact">
                             <a href="#" target="_blank">
