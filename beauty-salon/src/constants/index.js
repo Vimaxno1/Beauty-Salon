@@ -16,7 +16,7 @@ export const sidebarLinks = [
     label: 'Blog',
   },
   {
-    route: '/conact',
+    route: '/contact',
     label: 'Contact',
   },
 ];

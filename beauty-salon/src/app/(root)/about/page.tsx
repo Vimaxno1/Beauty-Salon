@@ -48,7 +48,7 @@ const page = () => {
                 </p>
                 <br />
                 <h2 className="beauty-about-heading">
-                  Betty White
+                  beauty White
                   <br />
                   <span>Salon Owner</span>
                 </h2>
