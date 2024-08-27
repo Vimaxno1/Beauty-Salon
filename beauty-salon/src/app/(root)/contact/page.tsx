@@ -62,11 +62,7 @@ const page = () => {
               </div>
               {/* <!-- Contact Form --> */}
               <div className="col-md-7 mb-30">
-                <form
-                  method="post"
-                  className="contact__form"
-                  action="https://duruthemes.com/demo/html/betty/multipage/mail.php"
-                >
+                <form method="post" className="contact__form" action="/">
                   {/* <!-- Form message --> */}
                   <div className="row">
                     <div className="col-12">
